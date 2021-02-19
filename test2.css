@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/V60kCpo.jpg');
+}
+h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+.box2 {
+    background-color: lightyellow;
+}
+.box3 {
+    background-color: linen;
+}
+.box4 {
+    background-color: lightgoldenrodyellow;
+}

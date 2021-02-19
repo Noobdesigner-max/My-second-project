@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+    .box1 {
+         background-color: whitesmoke;
+    } 
+    #map {
+        height: 400px;
+        width: fit-content;
+    }
+    </style>
+    <script>
+        // Initialize and add the map
+      function initMap() {
+        // The location of IIT Bhubaneswar, 
+        const IITBhubaneswar = { lat: 20.148537, lng: 85.671189 };
+        // The map, centered at IIT Bhubaneswar
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: IITBhubaneswar,
+        });
+        // The marker, positioned at IIT Bhubaneswar
+        const marker = new google.maps.Marker({
+          position: IITBhubaneswar,
+          map: map,
+        });
+      }
+    </script>
+</head>
+<body style="background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-HD-space-universe-widescreen-wallpapers-hdwalljoy-PIC-WPD004670.jpg');">
+    <h1 align="center" style="font: size 50px; color: yellow;">About Me</h1>
+    <div class="box1">
+    <p style="font-size: 30px; color: blue;">
+    Hello there, My visitors. I am called <strong> Subrat sekhar sahoo</strong>. Currently, I am a B.Tech mechanical first year, roll number 20ME01002, Section 2, Group 1 at <a href="https://www.iitbbs.ac.in/index.php">IIT Bhubaneswar</a>.
+    I am new to web designing, so I hope that you don't judge me too much. I would also like to know more about <a href="test2b.html">UI Design</a>. 
+    I like to do web designing because it is cool to see the stuff you make yourself on internet. 
+    </p>
+</div>    
+<div id="map">
+  <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201509/iit-bhubaneswar_647_091215015923.jpg" height="500px" width="1000px" align="center">
+  <script src="https://www.google.com/maps/dir//20.1482754,85.6711886/@20.148275,85.671189,809m/data=!3m1!1e3?hl=en-US" async></script>
+</div><br><br><br><br><br><br> 
+<h1 align="center"><a href="test2.html">Return to Main Page</a></h1>
+</body>
+</html>
